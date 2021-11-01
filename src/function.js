@@ -3,7 +3,7 @@ function addToCart(quantity,productName="Elma"){
 }
 
 //adddToCart();
-// addToCart(10);
+ addToCart(10);
 //adddToCart("Karpuz");
 
 let sayHello=()=>{
@@ -74,7 +74,7 @@ console.log(Math.max(...numbers));// ! spread operator ayrıştırmada kullanıl
 let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri]] =[
     {name:"İç Anadolu",population:"20M"},
     {name:"Marmara",population:"30m"},
-    {name:"Karadeniz",population:"10m"}
+    {name:"Karadeniz",population:"10m"},
     [
         ["Ankara","Konya"],
         ["İstanbul","Bursa"],
@@ -85,7 +85,12 @@ let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri]] =[
 // console.log(icAnadolu);
 // console.log(marmara);
 // console.log(karadeniz);
-// console.log(icAnadoluSehirleri);
+console.log(icAnadoluSehirleri);
 
-// let newProductName,newUnitPrice,newQuantity
-// ({ productName:newProductName,unitPrice:newUnitPrice,quantity:newQuantity}={productName:"Elma",unitPrice:10,quantity:5})
+let newProductName,newUnitPrice,newQuantity
+({ productName:newProductName,unitPrice:newUnitPrice,quantity:newQuantity}={productName:"Elma",unitPrice:10,quantity:5})
+
+
+console.log(newProductName);
+console.log(newUnitPrice);
+console.log(newQuantity);
