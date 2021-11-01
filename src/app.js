@@ -11,11 +11,10 @@ let dolarDun = 9.20;
     let dolarDun=9.10;
 }
 
-
 console.log(dolarDun);
 
 const euroDun=11.2;
-//euroDun=11; //! cons sabittir bir kere tanımlanır ve deper içine atılır sonrasında değiştirilemez
+//euroDun=11; //! const sabittir bir kere tanımlanır ve değer içine atılır sonrasında değiştirilemez
 
 // * array
 // * camelCasing
@@ -28,6 +27,7 @@ for (let i = 0; i < konutKredileri.length; i++) {
     
 }
 console.log("</ul>");
+ 
 
 
 // console.log(konutKredileri);
@@ -37,3 +37,6 @@ console.log("</ul>");
 console.log(dolarDun); -> output undifined
 var dolarDun = 9.20;
 */
+console.log(test);
+
+let test=0;
